@@ -31,7 +31,7 @@ paths:
        '400':
          $ref: '#/components/responses/400Error'
 
-     post:
+    post:
       description: Lets a user post a new artist
       requestBody:
         required: true
@@ -47,7 +47,7 @@ paths:
         '400':
           $ref: '#/components/responses/400Error'
 
-   /artists/{username}:
+  /artists/{username}:
     get:
       description: Obtain information about an artist from his or her unique username
       parameters:
